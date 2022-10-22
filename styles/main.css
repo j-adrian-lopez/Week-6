@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:ital,wght@1,500&display=swap');
+/* HTML Selectors */
+
+body {
+    font-family: 'Playfair Display', italic;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    max-width: 500px;
+}
+
+h1 {
+    color: #654300;
+    font-size: 60px;;
+
+}
+
+footer {
+    background-color: #654300;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: Lora, serif;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    background-color: burlywood;
+    color: #654321;
+    border: 1px gray solid;
+    font-family: Lora;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #654321;
+    color: peachpuff;
+}
+
+section {
+     display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/*Class Selectors*/
+
+.text{
+    font-size: 40px;
+
+}
+.auth{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#quote{
+    border: 3px solid #312801;
+    border-radius: 35%; 
+    background-color: #e5cb95;
+
+}
